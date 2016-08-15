@@ -1,0 +1,29 @@
+.loginForm{
+	width: 70%;
+	margin: 20px auto;
+	
+
+}
+.formItem{
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid red;
+}
+.formItem input{
+	display: block;
+
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+
+	height: 30px;
+
+}
+
+.fromItem input:last-child{
+	border-bottom:1px solid red;
+}
+.infoMore div{
+	display: inline-block;
+}

@@ -13,7 +13,7 @@ module.exports = {
 
 	},
 	resolve: {
-		extensions: ['', 'js', 'jsx']
+		extensions: ['', '.js', '.jsx']
 	},
 	postcss: [
 		require('autoprefixer')
@@ -43,9 +43,12 @@ module.exports = {
 		]
 	},
 	devServer:{
+		contentBase: './src/',
+		port: 8080,
 		colors: true,
 		historyApiFallback: true,
-		inline: true
+		inline: true,
+		publicPath: '/out/'
 	}
 		
 	
