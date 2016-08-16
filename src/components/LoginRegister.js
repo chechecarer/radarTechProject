@@ -34,6 +34,10 @@ class LoginRegister extends React.Component {
 			var opt = this.state.option;
 			return (
 				<div className="loginregister">
+					<div className="logo">
+						<img src="http://www.impactprogram.org/wp-content/uploads/2014/09/RADAR_4color.png" />
+					</div>
+					
 					<LoginRegisterTitle clickopt={this.clickOpt.bind(this)}/>
 					{
 						(function(){
@@ -49,6 +53,7 @@ class LoginRegister extends React.Component {
 						})()
 					}
 				</div>
+				
 			);
 		
 
