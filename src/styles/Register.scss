@@ -34,15 +34,7 @@
 			input{
 				@include border2;	
 			}
-			.passwordError{
-				color: red;
-				font-size: .8em;
-				height: 45px;
-				line-height: 45px;
-				position: absolute;
-				right: 5px;
-				top: 0;
-			}
+			
 		} 
 		.userphone {
 			input{

@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/Register.scss";
+import Error from './Error';
+
+const PasswordError = Error.PasswordError;
 
 class Register extends React.Component{
 	constructor(props){
@@ -41,7 +44,7 @@ class Register extends React.Component{
 						(function(){
 							if(states.passwordState === 0){
 								return (
-										<span className="passwordError">密码不少于6位</span>
+										<PasswordError />
 									)
 							}
 						})()
