@@ -4,7 +4,7 @@ import LoginRegisterTitle from './LoginRegisterTitle';
 import Login from './Login';
 import Register from './Register';
 
-import '../styles/loginRegister.scss';
+import '../styles/loginRegister';
 
 class LoginRegister extends React.Component {
 	constructor(props){

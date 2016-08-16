@@ -1,5 +1,5 @@
 const React = require('react');
-import '../styles/Login.scss';
+import '../styles/Login';
 class Login extends React.Component{
 	constructor(props){
 		super(props);

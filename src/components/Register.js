@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Register.scss";
+import "../styles/Register";
 import Error from './Error';
 
 const PasswordError = Error.PasswordError;

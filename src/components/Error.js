@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Error.scss";
+import "../styles/Error";
 class PasswordError extends React.Component{
 	constructor(props){
 		super(props);
