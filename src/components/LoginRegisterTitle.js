@@ -7,16 +7,14 @@ class LoginRegisterTitle extends React.Component {
 		this.state = {
 			option: this.props.option
 		}
+
 	}
-	clickSpan(e){
-		console.log(e);
-		// e.classList.toggle(action);
-	}
+	
 	render(){
 		return (
 				<div className="logregTitle">
-					<span className="optionBtn " onclick={this.clickSpan.bind(this)}>登录</span>
-					<span className="optionBtn">注册</span>
+					<span className="optionBtn action" onClick={this.props.clickopt} data-name="login">登录</span>
+					<span className="optionBtn" onClick={this.props.clickopt} data-name="register">注册</span>
 				</div>
 			)
 	}

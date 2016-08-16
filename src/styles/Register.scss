@@ -1,4 +1,4 @@
-.loginForm{
+.registerForm{
 	width: 70%;
 	margin: 20px auto;
 	
@@ -16,12 +16,16 @@
 
 		$borderradius: 3px;
 
-		.useraccount{
+		.username{
 			border-radius:$borderradius $borderradius 0 0;
 			border: 1px solid gray;
 		}
+		.userpassword, .userphone{
 
-		.userpassword{
+			border: 1px solid gray;
+			border-top: none;
+		}
+		.verifycode{
 			border-top: none;
 			border-left: 1px solid gray;
 			border-right: 1px solid gray;
@@ -42,24 +46,7 @@
 		}
 	}
 
-	.infoMore {
-		width: 278px;
-		div{
-			display: inline-block;
-		}
-		.rememberMe{
-			font-size: 0.8em;
-			float: left;
-		}
-		.cannotLogin{
-			float: right;
-			input{
-				border: none;
-				background: none;
-			}
-		}
-		overflow: hidden;
-	}
+	
 
 }
 

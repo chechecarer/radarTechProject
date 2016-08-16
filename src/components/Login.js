@@ -11,8 +11,8 @@ class Login extends React.Component{
 		return (
 			<form className="loginForm">
 				<div className="formItem">
-					<input type="text" placeHolder="手机号或邮箱" />
-					<input type="text" placeHolder="密码" />
+					<input type="text" className="useraccount" name="useraccount" placeholder="手机号或邮箱" />
+					<input type="password" className="userpassword" name="userpassword" placeholder="密码" />
 				</div>
 				<div className="submitBtn">
 					<button type="button">登录</button>
